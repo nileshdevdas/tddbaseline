@@ -1,0 +1,5 @@
+com\test\customerapp\ICustomerApp.class
+com\test\customerapp\CustomerAppImpl.class
+com\test\customerapp\InvalidValueException.class
+com\test\customerapp\CustomerFactory.class
+com\test\customerapp\Customer.class
