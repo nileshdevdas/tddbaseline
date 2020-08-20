@@ -1,5 +1,9 @@
-com\test\customerapp\ICustomerApp.class
-com\test\customerapp\CustomerAppImpl.class
 com\test\customerapp\InvalidValueException.class
 com\test\customerapp\CustomerFactory.class
+com\remote\app\ILogin.class
+com\remote\app\LoginFactory.class
+com\test\customerapp\ICustomerApp.class
+com\test\customerapp\CustomerAppImpl.class
+com\test\customerapp\UserApp.class
 com\test\customerapp\Customer.class
+com\test\customerapp\LoginApp.class

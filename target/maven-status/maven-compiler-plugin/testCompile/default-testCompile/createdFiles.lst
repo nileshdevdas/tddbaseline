@@ -1,3 +1,9 @@
+com\db\customertests\SeleniumTest.class
+com\db\customertests\MockingApplication.class
 com\db\customertests\CustomerTest.class
+com\db\customertests\FunctionalTestCase.class
+com\db\customertests\TestMockedObjects.class
+com\db\customertests\MockingDBConnections.class
 com\db\customertests\MyTestSuite.class
+com\db\customertests\TestLoginApp.class
 com\db\customertests\OrderTest.class
