@@ -3,10 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <!-- the below three things will identify your project -->
     <groupId>org.example</groupId>
     <artifactId>tddcustomerapp</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <!-- this is description -->
     <description>TDD Application</description>
     <developers>
         <developer>
@@ -19,16 +20,38 @@
         </developer>
     </developers>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+
+        <!-- @Test @Ingnore @BeforeClass @After @AfterClass @Suite @SuiteClasses execption -->
+        <!-- the assert / Fail / and will also run my test Cases and Test Suites -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
+        <!-- the dependency mocking i ws using a database connection but i dont have have database
+         so does this mean i cannot do unit testing ? U may need to mock the database
+         e g connection return dummy connection - Statementreturn dummy statements when then   -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- The Third Library is added for the features of using
+        Selenium Testing using WebDriver and UI Based Functional Testing -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
     </dependencies>
     <build>
-        <!--mvn surefire-report:report -->
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

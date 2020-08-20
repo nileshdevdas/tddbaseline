@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.db.customertests.CustomerTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 16.914 sec <<< FAILURE!
-testCustomerNameNegative(com.db.customertests.CustomerTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 0.325 sec <<< FAILURE!
+testCustomerNameNegative(com.db.customertests.CustomerTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 java.lang.AssertionError: Expected exception: com.test.customerapp.InvalidValueException
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:34)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
